@@ -15,7 +15,11 @@
   <objects name="objects">
     <object>objects\my_first_obj</object>
     <object>objects\test_obj</object>
+<<<<<<< HEAD
     <object>objects\my_2nd_obj</object>
+=======
+    <object>objects\another_test_obj</object>
+>>>>>>> origin/master
   </objects>
   <help>
     <rtf>help.rtf</rtf>
