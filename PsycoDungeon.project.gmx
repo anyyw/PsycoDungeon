@@ -8,13 +8,13 @@
   <sprites name="sprites">
     <sprite>sprites\Rocket</sprite>
     <sprite>sprites\Tile_1</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\my_first_obj</object>
   </objects>
-  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
