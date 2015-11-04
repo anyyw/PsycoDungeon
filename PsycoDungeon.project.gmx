@@ -9,17 +9,26 @@
     <sprite>sprites\Rocket</sprite>
     <sprite>sprites\Tile_1</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_player_walk_down</sprite>
+    <sprite>sprites\spr_player_walk_up</sprite>
+    <sprite>sprites\spr_player_walk_left</sprite>
+    <sprite>sprites\spr_player_walk_right</sprite>
+    <sprite>sprites\spr_player_punch_down</sprite>
+    <sprite>sprites\spr_player_punch_right</sprite>
+    <sprite>sprites\spr_player_punch_left</sprite>
+    <sprite>sprites\spr_player_punch_up</sprite>
+    <sprite>sprites\spr_player_pwalk_down</sprite>
+    <sprite>sprites\spr_player_pwalk_right</sprite>
+    <sprite>sprites\spr_player_pwalk_left</sprite>
+    <sprite>sprites\spr_player_pwalk_up</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\my_first_obj</object>
     <object>objects\test_obj</object>
-<<<<<<< HEAD
     <object>objects\my_2nd_obj</object>
-=======
     <object>objects\another_test_obj</object>
->>>>>>> origin/master
   </objects>
   <help>
     <rtf>help.rtf</rtf>
