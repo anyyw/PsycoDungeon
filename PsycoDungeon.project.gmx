@@ -25,13 +25,10 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Player</object>
-    <object>objects\test_obj</object>
-    <object>objects\my_2nd_obj</object>
-    <object>objects\another_test_obj</object>
+    <object>objects\obj_Player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\TestRoom</room>
+    <room>rooms\rm_TestRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
