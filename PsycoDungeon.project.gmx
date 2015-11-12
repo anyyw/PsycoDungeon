@@ -23,6 +23,8 @@
     <sprite>sprites\spr_player_pwalk_up</sprite>
     <sprite>sprites\spr_AmmoPickup</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_bed</sprite>
+    <sprite>sprites\spr_wall_corner</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,9 +32,12 @@
     <object>objects\obj_Player</object>
     <object>objects\obj_AmmoPickup</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_bed</object>
+    <object>objects\obj_wall_corner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestRoom</room>
+    <room>rooms\rm_TestRoomAgain</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
