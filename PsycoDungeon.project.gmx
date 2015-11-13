@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\pass_scream</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Rocket</sprite>
     <sprite>sprites\Tile_1</sprite>
@@ -23,6 +25,10 @@
     <sprite>sprites\spr_player_pwalk_up</sprite>
     <sprite>sprites\spr_AmmoPickup</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_en_agg_mele_placeholder</sprite>
+    <sprite>sprites\spr_en_agg_pro_placeholder</sprite>
+    <sprite>sprites\spr_en_pas_placeholder</sprite>
+    <sprite>sprites\spr_en_bul</sprite>
     <sprite>sprites\spr_bed</sprite>
     <sprite>sprites\spr_wall_corner</sprite>
   </sprites>
@@ -32,6 +38,10 @@
     <object>objects\obj_Player</object>
     <object>objects\obj_AmmoPickup</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_en_agg_mele</object>
+    <object>objects\obj_en_agg_pro</object>
+    <object>objects\obj_en_pas</object>
+    <object>objects\obj_en_bul</object>
     <object>objects\obj_bed</object>
     <object>objects\obj_wall_corner</object>
   </objects>
