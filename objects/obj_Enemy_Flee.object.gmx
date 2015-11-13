@@ -8,50 +8,62 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="10">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>108</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_friction</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>2</string>
+            <kind>1</kind>
+            <string>var run_dir = point_direction(x,y,-obj_Player.x, -obj_Player.y)
+var spd = 2
+var xDir = 0
+var yDir = 0
+var alert_dist = 50
+
+//Opposite x direction of player
+if(obj_Player.x == 0) { xDir = 180 }
+else { xDir = -obj_Player.x }
+
+//Opposite y direction of player
+if(obj_Player.y == 0){ yDir = 180 }
+else { yDir = -obj_Player.y }
+
+if((distance_to_object(obj_Player) &lt; alert_dist)&amp;&amp; distance_to_object(obj_Player) &gt; 3)
+{
+    image_angle=dir-90
+    motion_set(dir,spd)
+}
+
+</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
-        <id>101</id>
+        <id>500</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
-        <codestring></codestring>
+        <useapplyto>0</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring>draw_self();</codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>010101010</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>2</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>
