@@ -8,6 +8,28 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>721</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_health</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>100</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,8 +47,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var run_dir = point_direction(x,y,-obj_Player.x, -obj_Player.y)
-var spd = 2
+            <string>var spd = 2
 var xDir = 0
 var yDir = 0
 var alert_dist = 50
@@ -39,10 +60,16 @@ else { xDir = -obj_Player.x }
 if(obj_Player.y == 0){ yDir = 180 }
 else { yDir = -obj_Player.y }
 
+
 if((distance_to_object(obj_Player) &lt; alert_dist)&amp;&amp; distance_to_object(obj_Player) &gt; 3)
 {
-    image_angle=dir-90
+    var dir = point_direction(x,y,xDir,yDir)
     motion_set(dir,spd)
+}
+else
+{
+    var dir = point_direction(x,y,xDir,yDir)
+    motion_set(dir,0)
 }
 
 </string>
