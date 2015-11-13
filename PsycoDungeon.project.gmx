@@ -31,6 +31,7 @@
     <sprite>sprites\spr_en_bul</sprite>
     <sprite>sprites\spr_bed</sprite>
     <sprite>sprites\spr_wall_corner</sprite>
+    <sprite>sprites\enemy_flee</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -44,6 +45,7 @@
     <object>objects\obj_en_bul</object>
     <object>objects\obj_bed</object>
     <object>objects\obj_wall_corner</object>
+    <object>objects\obj_Enemy_Flee</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestRoom</room>
