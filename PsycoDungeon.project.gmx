@@ -33,7 +33,8 @@
     <sprite>sprites\enemy_flee</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_tile</background>
+    <background>background\bg_tile_gray</background>
+    <background>background\bg_tile_dark_gray</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
