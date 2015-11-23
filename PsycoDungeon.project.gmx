@@ -48,6 +48,7 @@
     <object>objects\obj_bed</object>
     <object>objects\obj_wall_corner</object>
     <object>objects\obj_Enemy_Flee</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestRoom</room>
