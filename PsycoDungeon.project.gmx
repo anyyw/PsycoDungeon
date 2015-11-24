@@ -35,8 +35,12 @@
   <backgrounds name="background">
     <background>background\bg_tile_gray</background>
     <background>background\bg_tile_dark_gray</background>
+    <background>background\bg_start</background>
+    <background>background\bg_gameover</background>
+    <background>background\bg_story</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_AmmoPickup</object>
@@ -49,10 +53,15 @@
     <object>objects\obj_wall_corner</object>
     <object>objects\obj_Enemy_Flee</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_cont_start</object>
+    <object>objects\obj_nxt_room</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
+    <room>rooms\rm_story</room>
     <room>rooms\rm_TestRoom</room>
     <room>rooms\rm_TestRoomAgain</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
