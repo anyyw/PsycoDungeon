@@ -31,6 +31,7 @@
     <sprite>sprites\spr_bed</sprite>
     <sprite>sprites\spr_wall_corner</sprite>
     <sprite>sprites\enemy_flee</sprite>
+    <sprite>sprites\spr_punch_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tile_gray</background>
@@ -49,6 +50,7 @@
     <object>objects\obj_wall_corner</object>
     <object>objects\obj_Enemy_Flee</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_punch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestRoom</room>
