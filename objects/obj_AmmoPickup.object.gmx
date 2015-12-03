@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ammo</string>
+            <string>playerAmmo</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>6</string>
           </argument>
         </arguments>
       </action>

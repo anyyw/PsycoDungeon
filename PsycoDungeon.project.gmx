@@ -32,6 +32,8 @@
     <sprite>sprites\spr_wall_corner</sprite>
     <sprite>sprites\enemy_flee</sprite>
     <sprite>sprites\spr_punch_test</sprite>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_room_change</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tile_gray</background>
@@ -41,6 +43,9 @@
     <background>background\bg_story</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\initPlayer.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_AmmoPickup</object>
@@ -56,12 +61,15 @@
     <object>objects\obj_cont_start</object>
     <object>objects\obj_nxt_room</object>
     <object>objects\obj_punch</object>
+    <object>objects\obj_room_change</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_story</room>
-    <room>rooms\rm_TestRoom</room>
-    <room>rooms\rm_TestRoomAgain</room>
+    <room>rooms\rm_room1</room>
+    <room>rooms\rm_room2</room>
+    <room>rooms\rm_room3</room>
+    <room>rooms\rm_story2</room>
     <room>rooms\rm_gameover</room>
   </rooms>
   <help>
