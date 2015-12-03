@@ -41,7 +41,6 @@
     <background>background\bg_story</background>
   </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_AmmoPickup</object>
