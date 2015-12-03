@@ -52,18 +52,19 @@
   </views>
   <instances>
     <instance objName="obj_Player" x="32" y="224" name="inst_C0FFEFFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_en_agg_mele" x="320" y="320" name="inst_2E1B8791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_en_pas" x="448" y="384" name="inst_97351CE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Flee" x="224" y="128" name="inst_0C279403" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_en_pas" x="576" y="448" name="inst_97351CE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Flee" x="224" y="64" name="inst_0C279403" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bed" x="352" y="64" name="inst_CE251BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bed" x="128" y="64" name="inst_D002692D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bed" x="128" y="384" name="inst_55F3A796" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_change" x="608" y="192" name="inst_123DC26D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_en_agg_mele" x="512" y="224" name="inst_0B63CB66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_en_agg_mele" x="256" y="96" name="inst_32A0B952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_en_agg_mele" x="512" y="384" name="inst_DAA83B7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_en_agg_mele" x="576" y="224" name="inst_0B63CB66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy_Flee" x="544" y="64" name="inst_0E00EBA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy_Flee" x="448" y="32" name="inst_9DE6FE35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_en_pas" x="32" y="448" name="inst_4D9F5E1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_en_pas" x="128" y="64" name="inst_5E7D472D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_en_pas" x="608" y="416" name="inst_6AE0A8C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Flee" x="320" y="384" name="inst_2AA05564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_tile_gray" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10000006" name="inst_ADADCAC6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
